@@ -3,6 +3,11 @@ import TechLogo from "./TechLogo/TechLogo";
 
 function Stack() {
   const stackList = [
+    "react.png",
+    "node.png",
+    "next.png",
+    "mongo.png",
+    "redux.png",
     "docker.png",
     "ethereum.png",
     "hardhat.png",
@@ -13,8 +18,11 @@ function Stack() {
     "tailwind.png.png",
     "truffle.png",
     "vscode.png",
-    "node.png",
-    "react.png"
+    "nginx.png",
+    "jira.png",
+    "github.png",
+    "gitlab.png",
+    "postman.png"
   ];
   return (
     <div className="flex flex-col items-center justify-center w-full">

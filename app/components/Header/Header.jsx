@@ -4,7 +4,7 @@ import "atropos/css";
 import Atropos from "atropos/react";
 function Header() {
   return (
-    <div className="flex flex-col items-center justify-center w-1/4 h-full space-y-2 font-extrabold text-center header">
+    <div className="flex flex-col items-center justify-center w-3/4 h-full space-y-2 font-extrabold text-center sm:w-1/4 header">
       <Atropos
         activeOffset={40}
         shadowScale={1.05}

@@ -6,40 +6,12 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 function Experience() {
   return (
-    <div className="flex flex-col items-center justify-center w-full space-y-8 text-white">
+    <div className="flex flex-col items-center justify-center w-3/4 space-y-8 text-white sm:w-full">
       <h2 className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
         My Experience
       </h2>
       <h3 className="text-2xl font-extrabold">K2LIS-(2020-PRESENT)</h3>
-      {/* <p className="w-1/4 mt-4 text-xl text-center text-white">
-        At K2LIS, I have been working as a Full Stack JS Developer since April
-        2020. In this role, I have been involved in various projects involving
-        the creation of Single Page Applications (SPAs) and Progressive Web Apps
-        (PWAs) using the MERN stack (MongoDB, Express.js, React.js, Node.js)
-        with Redux Toolkit, Tailwind, and Firebase. I have also gained
-        experience in developing browser extensions and npm packages.
-      </p>
-      <p className="w-1/4 mt-4 text-xl text-center text-white">
-        Furthermore, I have been actively involved in building decentralized
-        applications (dApps) using a range of languages, technologies, and
-        frameworks such as Ethereum, Hardhat, IPFS, Remix, Solidity, and
-        Metamask. Additionally, I have been responsible for deploying
-        applications on IBM and AWS machines using PM2 and Docker.
-      </p>
-      <p className="w-1/4 mt-4 text-xl text-center text-white">
-        Throughout my journey at K2LIS, I have focused on implementing
-        responsive user interfaces (UI) that offer a seamless user experience
-        (UX). I have maintained clean and testable code by utilizing ESLint and
-        performing code analysis with SonarQube. Additionally, I have integrated
-        third-party libraries like Google Authentication and Twitter APIs.
-      </p>
-      <p className="w-1/4 mt-4 text-xl text-center text-white">
-        I have also been actively involved in refactoring code and conducting
-        end-to-end and unit tests using Cypress, Jest, and React Testing
-        Library. As part of my role, I have managed projects and teams using
-        Jira and GitLab, proposing project architectures that foster efficiency
-        and collaboration.
-      </p> */}
+
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"

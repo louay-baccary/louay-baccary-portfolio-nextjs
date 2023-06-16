@@ -13,8 +13,8 @@ function page() {
   return (
     <ParallaxProvider>
       <Parallax speed={-100}>
-        <div className="flex flex-col items-center justify-center w-full space-y-96 mt-[1000px]">
-          <div className="flex items-center justify-between w-full p-4 ]">
+        <div className="flex flex-col items-center justify-center w-full space-y-96 mt-[900px] sm:mt-[800px]">
+          <div className="flex flex-col items-center justify-between w-full sm:flex sm:flex-row sm:p-4">
             <ContactButton />
             <div className="flex space-x-6">
               <Github />
@@ -24,9 +24,7 @@ function page() {
           <Header />
           <Journey />
           <Experience />
-          <Parallax>
-            <Stack />
-          </Parallax>
+          <Stack />
         </div>
       </Parallax>
     </ParallaxProvider>

@@ -19,6 +19,9 @@ body {
 
   -webkit-animation-direction: alternate;
   animation-direction: alternate;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* .journey{
   background-image: url('../public/assets/background1.jpg');
