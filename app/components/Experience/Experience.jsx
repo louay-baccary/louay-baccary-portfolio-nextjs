@@ -172,6 +172,106 @@ function Experience() {
             foster efficiency and collaboration.
           </p>
         </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "#800080", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #800080" }}
+          date=""
+          iconStyle={{ background: "#800080", color: "#fff" }}
+          icon={
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="w-6 h-6"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5"
+              />
+            </svg>
+          }
+        >
+          <p>
+            {" "}
+            In terms of education, I hold a national engineering degree from
+            Esprit, obtained in 2019, and I completed my scientific
+            baccalaureate at Lycée 9 avril Sidi Bouzid in 2013.
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "#800080", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #800080" }}
+          date=""
+          iconStyle={{ background: "#800080", color: "#fff" }}
+          icon={
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="w-6 h-6"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M16.5 3.75V16.5L12 14.25 7.5 16.5V3.75m9 0H18A2.25 2.25 0 0120.25 6v12A2.25 2.25 0 0118 20.25H6A2.25 2.25 0 013.75 18V6A2.25 2.25 0 016 3.75h1.5m9 0h-9"
+              />
+            </svg>
+          }
+        >
+          <p>
+            {" "}
+            In summary, I possess a strong skill set that includes programming
+            languages such as HTML, CSS, JavaScript, and Solidity. I am
+            proficient in frameworks and libraries like React.js, Next.js,
+            Express.js, Redux, Redux Toolkit, Tailwind CSS, Material-UI,
+            Truffle, Hardhat, Storybook, and IPFS. Furthermore, I have
+            experience working with databases like MongoDB and on-chain data in
+            the Ethereum Blockchain. I am familiar with project management tools
+            like Jira, GitLab, and GitHub, as well as SCRUM methodologies.
+            Additionally, I have expertise in testing tools such as Cypress,
+            Jest, React Testing Library, and Postman. I have utilized code
+            analysis tools like SonarQube and ESLint and have experience with
+            deployment tools like PM2, Docker, and Nginx.
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "#800080", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #800080" }}
+          date=""
+          iconStyle={{ background: "#800080", color: "#fff" }}
+          icon={
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="w-6 h-6"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z"
+              />
+            </svg>
+          }
+        >
+          <p>
+            {" "}
+            I am also a Certified Blockchain Developer, having obtained
+            certification from the Blockchain Council. In terms of languages, I
+            am fluent in Arabic, have a B2 level proficiency in French, and a B2
+            level proficiency in English.
+          </p>
+        </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
   );
