@@ -4,7 +4,7 @@ import "atropos/css";
 import Atropos from "atropos/react";
 function Header() {
   return (
-    <div className="flex flex-col items-center justify-center w-1/4 h-full space-y-2 font-extrabold text-center">
+    <div className="flex flex-col items-center justify-center w-1/4 h-full space-y-2 font-extrabold text-center header">
       <Atropos
         activeOffset={40}
         shadowScale={1.05}
@@ -19,14 +19,19 @@ function Header() {
           <h2 className="text-3xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
             BACCARY LOUAY
           </h2>
-          <Image src="/assets/photo.png" width={150} height={150} />
+          <Image
+            alt="Baccary Louay"
+            src="/assets/photo.png"
+            width={150}
+            height={150}
+          />
           <h2 className="text-[#B5E0DB] text-3xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
             I am a full-stack web3 developer
           </h2>
           <h3 className="pt-8 text-xl text-white">
-            I am a highly skilled full stack developer with a strong backgroun
+            I am a highly skilled full stack developer with a strong background
             in building web applications. I specialize in the MERN stack and
-            have professional experience working on web 3 projects, using
+            have professional experience working on web3 projects, using
             technologies such as Redux and TailwindCSS. With a passion for clean
             and efficient code, I am committed to delivering high-quality code.
           </h3>

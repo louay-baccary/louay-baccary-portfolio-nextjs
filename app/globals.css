@@ -2,38 +2,66 @@
 @tailwind components;
 @tailwind utilities;
 
-body  {
-  background-image: url('../public/assets/jameswebb.png');
-background-size:cover;
-overflow: scroll;
-overflow-x: hidden;
-scroll-behavior: smooth;
-      -webkit-animation: slidein 100s;
-      animation: slidein 100s;
+body {
+  background-image: url("../public/assets/jameswebb.png");
+  background-size: cover;
+  overflow: scroll;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  -webkit-animation: slidein 100s;
+  animation: slidein 100s;
 
-      -webkit-animation-fill-mode: forwards;
-      animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 
-      -webkit-animation-iteration-count: infinite;
-      animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
 
-      -webkit-animation-direction: alternate;
-      animation-direction: alternate;              
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
 }
+/* .journey{
+  background-image: url('../public/assets/background1.jpg');
+  background-size:cover;
+  overflow: scroll;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+        -webkit-animation: slidein 100s;
+        animation: slidein 100s;
+  
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+  
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+  
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;    
+} */
 
 @-webkit-keyframes slidein {
-from {background-position: top; background-size:3000px; }
-to {background-position: -100px 0px;background-size:2750px;}
+  from {
+    background-position: top;
+    background-size: 3000px;
+  }
+  to {
+    background-position: -100px 0px;
+    background-size: 2750px;
+  }
 }
 
 @keyframes slidein {
-from {background-position: top;background-size:3000px; }
-to {background-position: -100px 0px;background-size:2750px;}
-
+  from {
+    background-position: top;
+    background-size: 3000px;
+  }
+  to {
+    background-position: -100px 0px;
+    background-size: 2750px;
+  }
 }
 
-.center
-{
+.center {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,9 +74,20 @@ to {background-position: -100px 0px;background-size:2750px;}
   background: rgba(75, 75, 250, 0.3);
   border-radius: 3px;
 }
-.center h1{
-  text-align:center;
-  color:white;
-  font-family: 'Source Code Pro', monospace;
-  text-transform:uppercase;
+.center h1 {
+  text-align: center;
+  color: white;
+  font-family: "Source Code Pro", monospace;
+  text-transform: uppercase;
+}
+.glow {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow:
+    0 0 60px 30px #fff,
+    0 0 100px 60px #f0f,
+    0 0 140px 90px #0ff;
 }
