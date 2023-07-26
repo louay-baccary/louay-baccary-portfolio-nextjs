@@ -2,7 +2,7 @@ import React from "react";
 
 function Gitlab() {
   const onContactMeClick = () => {
-    window.open("https://about.gitlab.com/", "_blank");
+    window.open("https://gitlab.com/louayBaccary", "_blank");
   };
   return (
     <div className="relative">
